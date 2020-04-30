@@ -1,0 +1,77 @@
+#root{
+  background-image: url("./img/pizza_background.jpg");
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-dark{
+  opacity: 0.9;
+}
+
+.divCenter{
+  height: 60%;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.orderDetailForm{
+  font-weight: bold;
+  color: white;
+}
+
+.Catalogue{
+  height: 100%;
+}
+
+.modal-content{
+  background-color: black;
+}
+
+.buttonsDiv{
+  text-align: right;
+  margin-bottom: 1%;
+}
+
+.modalPizzaValidButton{
+  margin-top: 5%;
+}
+
+#modalCenteredTitle{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: rgb(239, 208, 115);
+  text-shadow: 3px 2px 2px rgba(193, 59, 6, 1);
+}
+
+.hidden{
+  display: none;
+}
+
+.ag-cell{
+  text-align: center;
+}
+
+h1{
+  margin: 3% !important;
+  font-family: 'Lobster', cursive;
+  color: rgb(239, 208, 115);
+  text-shadow: 3px 2px 2px rgba(193, 59, 6, 1);
+}
+
+.addPizzaButton{
+  margin-right: 2%;
+}
+
+.ag-row .ag-cell {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}
+
+.ag-header-cell-label {
+  justify-content: center;
+}
